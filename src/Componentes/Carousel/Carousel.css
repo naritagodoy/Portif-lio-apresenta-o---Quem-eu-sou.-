@@ -1,0 +1,40 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: max-content;
+
+  overflow: hidden;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 5px;
+  padding: 10px;
+}
+
+.carousel-item {
+  flex: 0 0 33, 3%;
+  width: 100%;
+
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-item img {
+  width: 259px;
+  height: 171px;
+  display: block;
+}
+
+.carousel-botao {
+  cursor: pointer;
+  background: bottom;
+}
+
+.carousel-botao:hover {
+  background-color: #b1ffff;
+}
