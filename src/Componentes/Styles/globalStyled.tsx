@@ -31,3 +31,8 @@ export const DisplayImages = styled.img`
   height: 21px;
   display: inline-block;
 `;
+
+export const StyleLinks = styled.a `
+text-decoration: none;
+color: inherit;
+`

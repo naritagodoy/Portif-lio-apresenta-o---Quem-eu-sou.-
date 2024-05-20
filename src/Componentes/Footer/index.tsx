@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { DisplayImages } from "../Styles/globalStyled";
+import { DisplayImages, StyleLinks } from "../Styles/globalStyled";
 
 const FooterEStilizado = styled.footer`
   color: #ffff;
@@ -57,14 +57,20 @@ const Footer: React.FC = () => {
             <DisplayImages src="Images/iconeemail.png" alt="icone email" />
           </Contatos>
           <Contatos>
-            <p>Linkedin: Narita godoy</p>
+            <p>
+              <StyleLinks href="https://www.linkedin.com/in/narita-godoy/">
+              Linkedin: Narita godoy
+                </StyleLinks></p>
             <DisplayImages
               src="Images/iconelinkedin.png"
               alt="icone linkedin"
             />
           </Contatos>
           <Contatos>
-            <p>GItHUb: naritagodoy</p>
+            <p>
+              <StyleLinks href="https://github.com/naritagodoy">
+              GItHUb: naritagodoy
+                </StyleLinks></p>
             <DisplayImages src="Images/iconegithub.png" alt="icone github" />
           </Contatos>
         </ContainerStyle>
@@ -73,7 +79,7 @@ const Footer: React.FC = () => {
         “ Sinto que como desenvolvedora posso exercer mais meu lado criativo,
         intelectual e digamos assim, meu lado nerd de ser :) “
       </Contatos>
-      <Contatos>@naritagodoy</Contatos>
+      <Contatos>naritagodoy</Contatos>
     </div>
   );
 };
