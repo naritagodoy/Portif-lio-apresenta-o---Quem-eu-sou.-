@@ -59,8 +59,9 @@ const Footer: React.FC = () => {
           <Contatos>
             <p>
               <StyleLinks href="https://www.linkedin.com/in/narita-godoy/">
-              Linkedin: Narita godoy
-                </StyleLinks></p>
+                Linkedin: Narita godoy
+              </StyleLinks>
+            </p>
             <DisplayImages
               src="Images/iconelinkedin.png"
               alt="icone linkedin"
@@ -69,8 +70,9 @@ const Footer: React.FC = () => {
           <Contatos>
             <p>
               <StyleLinks href="https://github.com/naritagodoy">
-              GItHUb: naritagodoy
-                </StyleLinks></p>
+                GItHUb: naritagodoy
+              </StyleLinks>
+            </p>
             <DisplayImages src="Images/iconegithub.png" alt="icone github" />
           </Contatos>
         </ContainerStyle>
@@ -79,7 +81,6 @@ const Footer: React.FC = () => {
         “ Sinto que como desenvolvedora posso exercer mais meu lado criativo,
         intelectual e digamos assim, meu lado nerd de ser :) “
       </Contatos>
-      <Contatos>naritagodoy</Contatos>
     </div>
   );
 };
