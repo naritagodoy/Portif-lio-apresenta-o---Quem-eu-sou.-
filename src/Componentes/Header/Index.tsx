@@ -39,13 +39,12 @@ const HeaderText: React.FC = () => {
     p: (
       <p>
         Meu nome é <HoverEffect>Narita Godoy</HoverEffect>, tenho 31 anos e
-        atualmente estudo programação - mais especificamente desenvolvimento de
-        front-end - com as aulas da escola Alura de programação. Também sou
-        graduada em enfermagem obstetrica pela USP desde 2017.
+        atualmente estou cursando superior em Tecnologia - Análise e Desenvolvimento de Sistemas na UNICID -SP, com previsão de término em 2026. Também sou
+        graduada em enfermagem obstetrica pela USP desde 2017 e me encontro agora, realizando a transição de carreira tão desejada por mim.
       </p>
     ),
 
-    p1: "Além do front-end, venho me dedicando ao inglês há cerca 8 meses, através de aulas online com professor particular.",
+    p1: " Para dar sequencia a essa fase intensa de dedicação a uma nova profissão, além da faculdade, complemento meus estudos com as aulas da escola Alura de programação e venho me dedicando ao inglês há cerca 9 meses, através de aulas online com professor particular.",
 
     p2: "Abaixo, através de um carrossel vocês podem conferir quais são as linguagens de programação que já aprendi e que com muita dedicação, venho me aprimorando a cada dia. Este portifólio por exemplo foi desenhado e codado por mim, (pode inspecionar :)) a fim de demonstrar alguns dos conhecimentos que adquiri! Claro, ainda faltam alguns ajustes, mas mesmo assim, Confira!",
   };
