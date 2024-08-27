@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
     <div>
       <ContainerFooter>
         <FooterEStilizado>
-          <p>Contatos</p>
+          <p>Contatos:</p>
         </FooterEStilizado>
       </ContainerFooter>
       <ContainerContatos>

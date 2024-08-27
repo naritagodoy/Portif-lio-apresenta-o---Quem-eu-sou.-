@@ -39,7 +39,7 @@ const HeaderText: React.FC = () => {
     p: (
       <p>
         Meu nome é <HoverEffect>Narita Godoy</HoverEffect>, tenho 31 anos e
-        atualmente estou cursando superior em Tecnologia - Análise e Desenvolvimento de Sistemas na UNICID -SP, com previsão de término em 2026. Também sou
+        atualmente estou cursando superior em Engenharia de Software na UNICID -SP, com previsão de término em 2028. Também sou
         graduada em enfermagem obstetrica pela USP desde 2017 e me encontro agora, realizando a transição de carreira tão desejada por mim.
       </p>
     ),

@@ -34,7 +34,7 @@ const Experiencias: React.FC = () => {
 
     h3: "Minhas principais competências e habilidades:",
 
-    p4: "Raciocínio lógico. Qualidade de serviço.",
+    p4: " ask desenvolvida para escola <strong> Láboratorio de Forró </strong>: ajustando componentes e lista de objetos. PR aprovado em 23/06/2024. Confira: XXXXXX  ",
     p5: "Resolução de problemas. Capacidade analítica.",
     p6: "Capacidade de escuta. Gestão de tempo.",
     p7: "Comunicação empática. Capacidade de organização.",
@@ -47,7 +47,8 @@ const Experiencias: React.FC = () => {
   };
 
   return (
-    <div>
+    <div> 
+      {/* container sobre minhas experiências profissionais */}
       <ContainerTexts>
         <h1 className="titulo">{experienciasText.h1}</h1>
         <img
@@ -66,7 +67,8 @@ const Experiencias: React.FC = () => {
         </Paragrafo>
       )}
       <div>
-        {/* <ContainerTexts>
+        {/* container sobre meus códigos para treinamento
+        <ContainerTexts>
           <h2 className="titulo">{experienciasText.h2}</h2>
           <img
             className="imagem-botao"
@@ -80,9 +82,10 @@ const Experiencias: React.FC = () => {
           <Paragrafo>
             <p className="textoExperiencias">{experienciasText.p4}</p>
           </Paragrafo>
-        )} */}
+        )}  */}
       </div>
       <div>
+        {/* container para minhas competencias */}
         <ContainerTexts>
           <h3 className="titulo">{experienciasText.h3}</h3>
           <img
