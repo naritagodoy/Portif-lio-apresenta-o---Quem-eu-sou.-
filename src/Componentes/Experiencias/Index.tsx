@@ -13,7 +13,6 @@ interface ExpericiasProps {
   p4: string;
   p5: string;
   p6: string;
-  p7: string;
 }
 
 const Paragrafo = styled.div`
@@ -34,10 +33,9 @@ const Experiencias: React.FC = () => {
 
     h3: "Minhas principais competências e habilidades:",
 
-    p4: " ask desenvolvida para escola <strong> Láboratorio de Forró </strong>: ajustando componentes e lista de objetos. PR aprovado em 23/06/2024. Confira: XXXXXX  ",
-    p5: "Resolução de problemas. Capacidade analítica.",
-    p6: "Capacidade de escuta. Gestão de tempo.",
-    p7: "Comunicação empática. Capacidade de organização.",
+    p4: "Resolução de problemas. Capacidade analítica.",
+    p5: "Capacidade de escuta. Gestão de tempo.",
+    p6: "Comunicação empática. Capacidade de organização.",
   };
 
   const [textoVisivel, setTextoVisivel] = useState<number | null>(null);
@@ -101,7 +99,7 @@ const Experiencias: React.FC = () => {
             <p className="textoExperiencias">{experienciasText.p4}</p>
             <p className="textoExperiencias">{experienciasText.p5}</p>
             <p className="textoExperiencias">{experienciasText.p6}</p>
-            <p className="textoExperiencias">{experienciasText.p7}</p>
+            
           </Paragrafo>
         )}
       </div>
