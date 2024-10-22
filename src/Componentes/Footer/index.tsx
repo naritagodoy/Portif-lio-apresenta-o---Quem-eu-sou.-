@@ -49,11 +49,20 @@ const Footer: React.FC = () => {
       <ContainerContatos>
         <ContainerStyle>
           <Contatos>
-            <p>Tel: (11) 9 94537804 </p>
-            <DisplayImages src="Images/iconewhatsapp.png" alt="icone whats" />
+           
+            <StyleLinks href="https://wa.me/55119994537804"
+              target="__blank"
+            rel="noopener noreferrer">
+              <p>Tel: (11) 9 94537804 </p>
+            </StyleLinks>
+             <DisplayImages src="Images/iconewhatsapp.png" alt="icone whats" />
+            
           </Contatos>
           <Contatos>
-            <p>Email: nari.godoys@gmail.com</p>
+            <StyleLinks href="mailto:nari.godoys@gmail.com">
+              <p>Email: nari.godoys@gmail.com</p>
+            </StyleLinks>
+            
             <DisplayImages src="Images/iconeemail.png" alt="icone email" />
           </Contatos>
           <Contatos>

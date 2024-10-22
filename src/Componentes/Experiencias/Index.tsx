@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ContainerTexts } from "../Styles/globalStyled";
+import { ContainerTexts, StyleLinks } from "../Styles/globalStyled";
 import "./experiencias.css";
 import styled from "styled-components";
 
@@ -13,6 +13,8 @@ interface ExpericiasProps {
   p4: string;
   p5: string;
   p6: string;
+  p7: string;
+  
 }
 
 const Paragrafo = styled.div`
@@ -36,6 +38,7 @@ const Experiencias: React.FC = () => {
     p4: "Resolução de problemas. Capacidade analítica.",
     p5: "Capacidade de escuta. Gestão de tempo.",
     p6: "Comunicação empática. Capacidade de organização.",
+    p7: "Nas atividades abaixo coloquei em prática meus conhecimentos em HTML, JavaScript, React,  CSS e responsividade. Utilizei conceitos como flexbox, listas, laços, tags âncoras e em uma das páginas o mobile first como modelo de responsividade. Na primeira imagem criei um menu suspenso (sem javascript) e na terceira imagem, o projeto Olá Mundo, foi o que mais gostei de desenvolver! Seu diferencial está no uso da biblioteca React Router com JavaScript e na estilização de componentes com Styled Components."
   };
 
   const [textoVisivel, setTextoVisivel] = useState<number | null>(null);
@@ -65,7 +68,7 @@ const Experiencias: React.FC = () => {
         </Paragrafo>
       )}
       <div>
-        {/* container sobre meus códigos para treinamento
+        {/* container sobre meus códigos para treinamento */}
         <ContainerTexts>
           <h2 className="titulo">{experienciasText.h2}</h2>
           <img
@@ -78,9 +81,24 @@ const Experiencias: React.FC = () => {
 
         {textoVisivel === 2 && (
           <Paragrafo>
-            <p className="textoExperiencias">{experienciasText.p4}</p>
+            <p className="textoExperiencias">{experienciasText.p7}</p>
+            <div className="imagem-atividades">
+              <StyleLinks href="https://alurabook-flame-five.vercel.app/">
+                <img src="Images/aluraBook.png" alt="imagem página Alura Book" />
+              </StyleLinks>
+              <StyleLinks href="https://aluraplus-mauve-zeta.vercel.app/">
+                 <img src="Images/aluraPlus.png" alt="imagem página Alura Plus" />
+              </StyleLinks>
+              <StyleLinks href="https://olamundo-gilt.vercel.app/">
+<img src="Images/olaMundo.png" alt="imagem página Ola mundo" />
+              </StyleLinks>
+           
+            
+
+            </div>
+            
           </Paragrafo>
-        )}  */}
+        )} 
       </div>
       <div>
         {/* container para minhas competencias */}

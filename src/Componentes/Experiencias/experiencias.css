@@ -25,3 +25,10 @@
   margin: 10px;
   line-height: 30px;
 }
+.imagem-atividades {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+}
