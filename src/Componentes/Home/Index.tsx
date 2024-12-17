@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
     p1: " Para dar sequencia a essa fase intensa de dedicação a profissão, além da faculdade complemento meus estudos com as aulas da escola Alura de programação e venho também me dedicando ao inglês há cerca de 1 ano.",
 
-    p2: " Através de um carrossel vocês podem conferir quais são as linguagens de programação que já aprendi e venho me aprimorando a cada dia. Este portifólio por exemplo foi desenhado e codado por mim! Clique em Projects para ver meus trabalhos e certificados!",
+    p2: " Através de um carrossel vocês podem conferir quais são as linguagens de programação que já aprendi e venho me aprimorando a cada dia. Este portifólio por exemplo foi desenhado e codado por mim! Clique acima em Projetos e Certificados para visualizar!",
   };
 
   return (
