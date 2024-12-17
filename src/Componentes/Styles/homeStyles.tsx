@@ -13,6 +13,13 @@ export const CardsContainer = styled.div`
     align-items: center;
     text-align: center;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const CardP = styled.div`
@@ -29,14 +36,21 @@ export const CardP = styled.div`
   border-radius: 10px;
   padding: 18px;
 
-  &:hover{
-  transform: scale(1.25);
-  transition: 500ms linear;
+  &:hover {
+    transform: scale(1.25);
+    transition: 500ms linear;
   }
   @media (max-width: 450px) {
-    position: static; 
-    margin: 10px;   
-    width: 60%;       
+    position: static;
+    margin: 10px;
+    width: 60%;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    position: static;
+    margin: 10px;
+    width: 60%;
+  }
 `;
 export const CardP1 = styled.div`
   position: absolute;
@@ -54,15 +68,22 @@ export const CardP1 = styled.div`
   border-radius: 10px;
   padding: 15px;
 
-    &:hover{
-  transform: scale(1.25);
-  transition: 500ms linear;
+  &:hover {
+    transform: scale(1.25);
+    transition: 500ms linear;
   }
 
   @media (max-width: 450px) {
-    position: static; 
+    position: static;
     margin: 10px;
-    width: 65%; 
+    width: 65%;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    position: static;
+    margin: 10px;
+    width: 65%;
+  }
 `;
 export const CardP2 = styled.div`
   position: absolute;
@@ -79,15 +100,21 @@ export const CardP2 = styled.div`
   background-color: #000000b3;
   border-radius: 10px;
   padding: 18px;
-  &:hover{
-  transform: scale(1.25);
-  transition: 500ms linear;
+  &:hover {
+    transform: scale(1.25);
+    transition: 500ms linear;
   }
 
   @media (max-width: 450px) {
     position: static;
-    margin: 10px; 
-    width: 67%;      
+    margin: 10px;
+    width: 67%;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    position: static;
+    margin: 10px;
+    width: 67%;
+  }
 `;
 
 export const OverlayImage = styled.img`
@@ -105,6 +132,12 @@ export const OverlayImage = styled.img`
     width: 50%;
     transform: translateX(10px);
   }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    position: static;
+    margin-botton: 20px;
+    width: 30%;
+    transform: translateX(10px);
+  }
 `;
 
 export const TitleHome = styled.a`
@@ -119,10 +152,18 @@ export const TitleHome = styled.a`
   text-decoration: none;
 
   &:hover {
-    transform: scale(1.1);   /* Efeito de leve zoom */
-    transition: 0.3s;         /* Suaviza a transição */
+    transform: scale(1.1); /* Efeito de leve zoom */
+    transition: 0.3s; /* Suaviza a transição */
   }
 
   @media (max-width: 450px) {
-   display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    position: unset;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 10px;
+    font-size: 30px;
+    position: unset;
+  }
 `;
