@@ -2,22 +2,25 @@
   position: relative;
   width: 100%;
   max-width: max-content;
-
-  overflow: hidden;
+  margin-top: 30px;
+  overflow: auto;
 }
 
 .carousel-content {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  gap: 5px;
+  gap: 30px;
   padding: 10px;
 }
 
 .carousel-item {
   flex: 0 0 33, 3%;
   width: 100%;
-
   transition: opacity 1s ease-in-out;
+}
+.carousel-item:hover {
+  transform: scale(1.25);
+  transition: 500ms linear;
 }
 
 .carousel-item.active {
@@ -28,13 +31,24 @@
   width: 259px;
   height: 171px;
   display: block;
+  padding: 30px;
+  background-color: #000000b3;
+  border-radius: 10px;
 }
 
 .carousel-botao {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   background: bottom;
+  border: none;
+}
+@media screen and (max-width: 450px) {
+  .carousel-botao {
+    position: relative;
+  }
 }
 
-.carousel-botao:hover {
-  background-color: #b1ffff;
+.carousel-botao-image {
+  width: 50px;
 }

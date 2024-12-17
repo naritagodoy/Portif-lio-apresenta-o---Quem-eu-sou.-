@@ -20,13 +20,30 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
   return (
     <div className="carousel">
-      <button
-        className="carousel-botao"
-        onClick={voltar}
-        disabled={slideCarousel === 0}
-      >
-        <img src="Images/arrowLeft.svg" alt="botao left" />
-      </button>
+      <div className="carousel-botao">
+        <button
+          className="carousel-botao"
+          onClick={voltar}
+          disabled={slideCarousel === 0}
+        >
+          <img
+            className="carousel-botao-image"
+            src="Images/esquerda.png"
+            alt="botao left"
+          />
+        </button>
+        <button
+          className="carousel-botao"
+          onClick={avançar}
+          disabled={slideCarousel === 5}
+        >
+          <img
+            className="carousel-botao-image"
+            src="Images/direita.png"
+            alt="botao left"
+          />
+        </button>
+      </div>
       <div
         className="carousel-content"
         style={{ transform: `translateX(-${slideCarousel * 100}%)` }}
@@ -42,13 +59,6 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           </div>
         ))}
       </div>
-      <button
-        className="carousel-botao"
-        onClick={avançar}
-        disabled={slideCarousel === 5}
-      >
-        <img src="Images/arrowRigth.svg" alt="botao left" />
-      </button>
     </div>
   );
 };
