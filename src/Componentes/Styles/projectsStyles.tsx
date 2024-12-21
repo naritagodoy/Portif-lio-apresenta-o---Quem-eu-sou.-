@@ -9,7 +9,7 @@ export const MainContainerProjects = styled.div`
 
   @media (max-width: 450px) {
     position: relative;
-    left: 15%;
+    left: 10%;
     gap: 0px;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -28,6 +28,9 @@ export const TitleProjects = styled.h1`
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     font-size: 35px;
+    position: relative;
+    right: 14%;
+    }
   }
 `;
 export const TextProject = styled.a`

@@ -160,10 +160,20 @@ export const TitleHome = styled.a`
     margin-top: 10px;
     font-size: 18px;
     position: unset;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     margin-top: 10px;
     font-size: 30px;
     position: unset;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 `;
