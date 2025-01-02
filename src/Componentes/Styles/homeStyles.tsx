@@ -36,6 +36,10 @@ export const CardP = styled.div`
   border-radius: 10px;
   padding: 18px;
 
+  a {
+    color: #e0e0e0;
+  }
+
   &:hover {
     transform: scale(1.25);
     transition: 500ms linear;
@@ -100,6 +104,38 @@ export const CardP2 = styled.div`
   background-color: #000000b3;
   border-radius: 10px;
   padding: 18px;
+
+  &:hover {
+    transform: scale(1.25);
+    transition: 500ms linear;
+  }
+
+  @media (max-width: 450px) {
+    display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    position: static;
+    margin: 10px;
+    width: 67%;
+  }
+`;
+export const CardP3 = styled.div`
+  display: block;
+  position: absolute;
+  line-height: 1.6;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  top: 162%;
+  left: 66%;
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  background-color: #000000b3;
+  border-radius: 10px;
+  padding: 18px;
+
   &:hover {
     transform: scale(1.25);
     transition: 500ms linear;
@@ -109,11 +145,14 @@ export const CardP2 = styled.div`
     position: static;
     margin: 10px;
     width: 67%;
+
+    a {
+      cursor: pointer;
+      color: #e0e0e0;
+    }
   }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    position: static;
-    margin: 10px;
-    width: 67%;
+  @media (min-width: 450px) {
+    display: none;
   }
 `;
 
@@ -157,14 +196,7 @@ export const TitleHome = styled.a`
   }
 
   @media (max-width: 450px) {
-    margin-top: 10px;
-    font-size: 18px;
-    position: unset;
-
-    &:hover {
-      cursor: pointer;
-      text-decoration: underline;
-    }
+    display: none;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     margin-top: 10px;
